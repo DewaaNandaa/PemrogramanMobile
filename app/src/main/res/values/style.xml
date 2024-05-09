@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tambahkan di dalam file res/values/styles.xml -->
+    <style name="BiodataTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item> <!-- Ukuran teks yang lebih kecil -->
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#333333</item> <!-- Warna teks lebih gelap -->
+    </style>
+
+</resources>

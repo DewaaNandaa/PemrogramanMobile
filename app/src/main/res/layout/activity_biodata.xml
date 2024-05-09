@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Biodata"
+    android:background="@drawable/gradientbackground">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="1dp"
+        android:id="@+id/imageView"/>
+
+    <ImageView
+        android:id="@+id/arrowBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:onClick="goBackToMainActivity"
+        android:src="@drawable/ic_arrow_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:paddingBottom="20dp"
+        android:text="My Biodata" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Dewa Putu Nanda Trisnadi"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textTTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TTL : Denpasar, 31 Mei 2004"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur : 19 Tahun"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat : Jl. Raya Abianbase gg. Subur, Kapal, Mengwi"
+        android:textColor="@color/black"
+        android:background="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="15dp" />
+</LinearLayout>
